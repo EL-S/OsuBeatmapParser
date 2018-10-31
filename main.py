@@ -51,11 +51,11 @@ for entry in os.scandir(path):
             try:
                 print(" BeatmapID:",information['BeatmapID'])
             except:
-                print(" BeatmapID:","")
+                print(" BeatmapID:","unknown")
             try:
                 print(" BeatmapSetID:",information['BeatmapSetID'])
             except:
-                print(" BeatmapSetID:","")
+                print(" BeatmapSetID:","unknown")
             print(" Mode:",information['Mode'])
         except:
             print("Error Parsing:",file_path)
